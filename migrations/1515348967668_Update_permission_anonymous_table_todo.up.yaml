@@ -1,0 +1,13 @@
+- args:
+    role: anonymous
+    table: todo
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - Task Name
+      - ID
+      filter: {}
+    role: anonymous
+    table: todo
+  type: create_update_permission

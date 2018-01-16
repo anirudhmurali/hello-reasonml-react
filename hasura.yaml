@@ -1,0 +1,9 @@
+description: Boilerplate code for a Hello World ReasonReact Project that can be deployed
+  to the cloud with a git push (hosted on the Hasura free tier).
+gitUrl: https://github.com/anirudhmurali/hello-reasonml-react
+keywords: reasonml, react
+media:
+  images:
+  - https://raw.githubusercontent.com/anirudhmurali/hello-reasonml-react/master/hello-reasonml-react.png
+name: hello-reasonml-react
+platformVersion: v0.15.21

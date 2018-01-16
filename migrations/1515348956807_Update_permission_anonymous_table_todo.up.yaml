@@ -1,0 +1,9 @@
+- args:
+    permission:
+      columns:
+      - Task Name
+      - ID
+      filter: {}
+    role: anonymous
+    table: todo
+  type: create_select_permission
