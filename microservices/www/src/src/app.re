@@ -13,7 +13,7 @@ let make = (~message, _children) => {
         <h2> (ReasonReact.stringToElement(message)) </h2>
       </div>
       <p className="App-intro">
-        (ReasonReact.stringToElement("To get started, edit the file:"))
+        (ReasonReact.stringToElement("To rock and roll, edit the file:"))
         <code> (ReasonReact.stringToElement(" microservices/www/src/src/app.re ")) </code>
         (ReasonReact.stringToElement("and git commit to reload."))
       </p>
