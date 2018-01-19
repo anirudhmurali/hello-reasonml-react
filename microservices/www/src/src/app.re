@@ -15,7 +15,7 @@ let make = (~message, _children) => {
       <p className="App-intro">
         (ReasonReact.stringToElement("To get started, edit the file:"))
         <code> (ReasonReact.stringToElement(" microservices/www/src/src/app.re ")) </code>
-        (ReasonReact.stringToElement("and save to reload."))
+        (ReasonReact.stringToElement("and git commit to reload."))
       </p>
     </div>
 };
