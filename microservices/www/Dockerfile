@@ -6,10 +6,10 @@ RUN npm install -g bs-platform
 ADD src/package.json /app/package.json
 WORKDIR /app
 RUN npm install
+RUN npm link bs-platform
 
 # Now add source code & build
 ADD src /app
-RUN npm link bs-platform
 RUN yarn build
 
 # Serve with serve ;)
