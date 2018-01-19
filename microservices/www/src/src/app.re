@@ -13,9 +13,9 @@ let make = (~message, _children) => {
         <h2> (ReasonReact.stringToElement(message)) </h2>
       </div>
       <p className="App-intro">
-        (ReasonReact.stringToElement("Edit, git push hasura master:"))
-        <code> (ReasonReact.stringToElement(" microservices/www/src/src/app.re ")) </code>
-        (ReasonReact.stringToElement(". This will show up with incognito."))
+        (ReasonReact.stringToElement("To get started, edit"))
+        <code> (ReasonReact.stringToElement(" src/app.re ")) </code>
+        (ReasonReact.stringToElement("and save to reload."))
       </p>
     </div>
 };
