@@ -15,7 +15,7 @@ let make = (~message, _children) => {
       <p className="App-intro">
         (ReasonReact.stringToElement("To get started, edit"))
         <code> (ReasonReact.stringToElement(" src/app.re ")) </code>
-        (ReasonReact.stringToElement("and save to reload."))
+        (ReasonReact.stringToElement("and save to reload. Commit and git push hasura master to deploy."))
       </p>
     </div>
 };
